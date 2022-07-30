@@ -1,5 +1,8 @@
 
 
+## Propriedades cluster dataproc
+>>> dataproc:pip.packages  openpyxl==3.0.10 
+
 # Ingestão excel Vendas
 
 ## Raw Vendas
@@ -54,3 +57,4 @@ gcloud dataproc jobs wait job-twitter-50 --project teste-gcp-2022 --region us-ce
 ``` shell
 gcloud dataproc jobs wait job-twitter-portugues --project teste-gcp-2022 --region us-central1
 ```
+
